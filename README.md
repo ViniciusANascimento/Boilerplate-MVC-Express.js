@@ -50,8 +50,8 @@ project-root
 ├── package.json         # Arquivo de configuração do Node.js
 └── README.md            # Documentação do projeto
 ```
-- Guia de usabilidade:
-```mermaid
+- **Guia de usabilidade**:
+```plaintext
 A - controllers
 B - services
 C - routes
