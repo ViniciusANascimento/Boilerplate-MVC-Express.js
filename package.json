@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "name": "base-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --env-file=.env src/server.js",
+    "dev:watch": "nodemon --env-file=.env src/server.js"
+  },
+  "keywords": [],
+  "author": "Vinicius Nascimento",
+  "license": "MIT",
+  "description": "Este é um projeto de boilerplate para uma aplicação em Node.js seguindo o padrão MVC (Model-View-Controller), utilizando o framework Express.js. É ideal para iniciar rapidamente um projeto estruturado e organizado."
+}
