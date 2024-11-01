@@ -50,7 +50,21 @@ project-root
 ├── package.json         # Arquivo de configuração do Node.js
 └── README.md            # Documentação do projeto
 ```
-
+- Guia de usabilidade:
+```mermaid
+A - controllers
+B - services
+C - routes
+D - model
+E - App
+    subgraph src
+        A --> B
+        B --> C
+        C --> D **Não necessario utilizar models com javascript vanilla
+        A --> E
+        E --> F
+    end
+```
 ## Pré-requistos
 
 - NodeJS e npm instalados
